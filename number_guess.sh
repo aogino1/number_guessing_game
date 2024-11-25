@@ -80,9 +80,9 @@ do
     fi
     break
   elif [[ $GUESS -gt $SECRET_NUMBER ]]
-#   then
-#     echo "It's lower than that, guess again:"
-#   else
-#     echo "It's higher than that, guess again:"
-#   fi
-# done
+  then
+    echo "It's lower than that, guess again:"
+  else
+    echo "It's higher than that, guess again:"
+  fi
+done
